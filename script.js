@@ -112,7 +112,7 @@ function jeu(nombre) {
 
         if (nombre === cible) {
             alert("C'est gagné !");
-            break;
+            break;''
         }
 
         else if (nombre !== cible) {
@@ -214,8 +214,8 @@ function tab3() {
     let nbres = [[0, 18], [1, 45], [45, 48], [-3, 2]];
     let tall = 0;
 
-    for(j = 0; j < nbres.lenght; j++){
-        for(i = 0; i < nbres.lenght; i++){
+    for(j = 0; j < nbres.length; j++){
+        for(i = 0; i < nbres.length; i++){
             if (nbres[j][i] > tall){
                 tall = nbres[j][i];
             }
@@ -231,7 +231,7 @@ function tab3() {
 function mdp(){
     let mdpp = prompt("Entrez un mot de passe");
 
-    alert(mdpp.lenght);
+    alert(mdpp.length);
 }
 
 // mdp();
@@ -278,3 +278,5 @@ function para(a, b){
 }
 
 // para();
+
+// Exercice 17
